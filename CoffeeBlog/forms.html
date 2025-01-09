@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+
+    <form action="/submission" method="post" back>
+        <
+
+        <label for="name">Name:</label>
+        <input type="text" name="name"  id="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password" minlength="8" required />
+        <input class="submit-hover" type="submit" value="Sign in" />    
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Other">Other</option>
+            <optgroup value="Decline">Decline to answer</optgroup>
+        </select>
+
+        <label for="checkbox">Terms and Conditions</label>
+                <input type="checkbox" id="terms and conditions" name="terms and conditons">
+        <label for="yes">Yes</label>
+                <input type="checkbox" id="terms and conditions" name="terms and conditons">
+        <label for="no">No</label>
+    </form>
+</body>
+</html>

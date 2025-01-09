@@ -64,13 +64,19 @@ a{
 
 /*header*/
 
-header{
+.primary-header{
     background-image: url(img/banner.jpg);
     background-position: center center;
     background-size: cover;
     height: 400px;
     color:white;
     text-align: center;
+}
+
+.secondary-header{
+    background-color: black;
+    color: white;
+    height: 150px;
 }
 
 .menu-bar{
