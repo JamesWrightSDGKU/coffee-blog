@@ -4,22 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
-    <title>My website</title>
+    <title>James' Coffee Blog</title>
 </head>
 <body>
     <header class="secondary-header">
         <div class="menu-bar">
             <h1>Coffee Blog</h1>
             <nav>
+                <a href="index.html">Home</a>
                 <a href="about.html">About us</a>
                 <a href="courses.html">Courses</a>
                 <a href="contact.html">Contact</a>
-        </div>
-        <p><h2>Coffee Blog with tips and Courses</h2></p>
-        <p>Learn from the experts with the best recipes and tips</p>
+            </nav>
+        </div>        
     </header>
-    <main>
-        <h2>Contact</h2>
+
+
+    <main class="container">
+        <h1>Contact</h1>
+
+        <div class="form-container">
+            <div>
+                <img src="img/contact.jpg" alt="Coffee mugs">
+            </div>
+            <form class="form container">
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Add your name">
+                </div>
+                <div class="input-container">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Add your email">
+                </div>
+                <div class="input-container">
+                    <label>Message:</label>
+                    <textarea id="message" placeholder="Type your message"></textarea>
+                </div>
+                <div>
+                    <button>Send</button>
+                </div>
+            </form>
+        </div>
     </main>
+
+
+    <footer class="global-footer">
+        <div class="footer-nav">
+        <h2>Coffee Blog</h2>
+        <div class="menu-bar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+        </div>    
+    </footer>
 </body>
 </html>

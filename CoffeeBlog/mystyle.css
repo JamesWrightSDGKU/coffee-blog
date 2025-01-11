@@ -19,6 +19,8 @@ img{
 h1{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2,h3{
@@ -41,6 +43,7 @@ a{
 
 .btn{
     display: inline-block;
+    color: white;
     padding: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -56,6 +59,10 @@ a{
     background-color: brown;  
 }
 
+.btn-register{
+    background-color: goldenrod;
+}
+
 .border-b{
     margin-bottom: 15px;
     border-bottom: 1px solid gray;
@@ -68,7 +75,7 @@ a{
     background-image: url(img/banner.jpg);
     background-position: center center;
     background-size: cover;
-    height: 400px;
+    height: 250px;
     color:white;
     text-align: center;
 }
@@ -80,7 +87,7 @@ a{
 }
 
 .menu-bar{
-    display: flex;;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -104,4 +111,86 @@ a{
 
 .courses-container{
     width: 30%;
+}
+
+/*courses*/
+
+.course-info-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.course-register-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*contact*/
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+.form button{
+    padding: 5px;
+}
+
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container label{
+    width: 20%;
+}
+
+.input-container input,
+.input-container textarea{
+    padding: 5px;
+    border:1px solid gray;
+    width: 75%;
+}
+
+/*about*/
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/*footer*/
+
+.global-footer{    
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-nav a{
+    margin-right: 20px;
 }
